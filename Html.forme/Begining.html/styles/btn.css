@@ -1,0 +1,49 @@
+.sub-button{
+    background-color: rgb(200, 0, 0);
+    color: aliceblue;
+    border: none;
+    height: 35px;
+    width: 105px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    
+    transition: opacity 0.15s;
+}
+.jn-button{
+    background-color: white;
+    color: rgb(0, 227, 227);
+    height: 35px;
+    width: 60px;
+    border-color:  rgb(0, 227, 227);
+    border-style: solid;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.15s;
+}
+.tw-button{
+    background-color: rgb(0, 191, 255);
+    color: white;
+    height: 35px;
+    width: 90px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    transition: box-shadow 0.5s;
+    
+}
+.tw-button:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0,0.3);
+}
+.jn-button:hover{
+    background-color: aqua;
+}
+.jn-button:active{
+    opacity: 0.5;
+}
+.sub-button:hover{
+    opacity:0.7;
+}
